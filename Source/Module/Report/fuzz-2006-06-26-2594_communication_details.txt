@@ -1,0 +1,1351 @@
+CommunicationDetails: {
+  "0.168.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "102.168.1.1": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:66"
+  },
+  "107.168.1.255": {
+    "domain_name": "NotResolvable",
+    "mac": "ff:ff:ff:ff:ff:ff"
+  },
+  "115.0.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "115.0.1.41": {
+    "domain_name": "NotResolvable",
+    "mac": "00:60:97:0f:ee:72"
+  },
+  "116.168.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "120.168.1.255": {
+    "domain_name": "NotResolvable",
+    "mac": "ff:ff:ff:ff:ff:ff"
+  },
+  "128.168.1.1": {
+    "domain_name": "1.01.a880.ip4.static.sl-reverse.com",
+    "mac": "00:30:54:00:34:56"
+  },
+  "128.168.1.2": {
+    "domain_name": "2.01.a880.ip4.static.sl-reverse.com",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "14.168.1.2": {
+    "domain_name": "static.vnpt.vn",
+    "mac": "00:e0:49:01:6e:bd"
+  },
+  "147.117.1.253": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "147.137.21.122": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "147.137.21.94": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "147.234.1.170": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "147.234.1.249": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:25:73:00"
+  },
+  "147.234.1.253": {
+    "domain_name": "dns.ecitele.com",
+    "mac": "00:30:54:00:73:56"
+  },
+  "170.170.170.170": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "172.168.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.112.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.114.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.121.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.136.1.1": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "192.136.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.169.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:73:01:6e:bd"
+  },
+  "192.170.1.1": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "192.170.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.170.170.170": {
+    "domain_name": "a.170.170.170.192.servpac.com",
+    "mac": "00:30:54:00:34:56"
+  },
+  "192.184.1.1": {
+    "domain_name": "1-1-184-192-reverse.instavps.net",
+    "mac": "00:30:54:00:34:56"
+  },
+  "192.184.189.41": {
+    "domain_name": "192-184-189-41.static.sonic.net",
+    "mac": "00:60:97:0f:ee:72"
+  },
+  "192.194.1.255": {
+    "domain_name": "NotResolvable",
+    "mac": "ff:ff:ff:ff:ff:ff"
+  },
+  "192.2.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.22.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.232.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.232.1.41": {
+    "domain_name": "NotResolvable",
+    "mac": "00:60:97:0f:ee:72"
+  },
+  "192.37.115.0": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "192.86.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.98.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "200.168.1.2": {
+    "domain_name": "200-168-1-2.dsl.telesp.net.br",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "200.168.1.255": {
+    "domain_name": "200-168-1-255.dsl.telesp.net.br",
+    "mac": "ff:ff:ff:ff:ff:ff"
+  },
+  "200.68.120.81": {
+    "domain_name": "customer-static-68-120-81.iplannetworks.net",
+    "mac": "00:30:54:00:34:56"
+  },
+  "200.68.120.99": {
+    "domain_name": "customer-static-68-120-99.iplannetworks.net",
+    "mac": "00:30:54:00:34:56"
+  },
+  "200.68.37.115": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "208.242.33.35": {
+    "domain_name": "user35.shell.net",
+    "mac": "00:30:54:00:34:56"
+  },
+  "212.234.33.35": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "212.242.33.201": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "212.242.33.35": {
+    "domain_name": "eth1.mgc1-khk.ip.cybercity.dk",
+    "mac": "00:30:54:00:34:56"
+  },
+  "212.242.33.36": {
+    "domain_name": "eth2.rtpfw1-khk.ip.cybercity.dk",
+    "mac": "00:30:54:00:34:56"
+  },
+  "214.242.33.36": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "217.168.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "240.168.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "241.168.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "25.168.1.1": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "253.168.1.1": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "37.115.0.2": {
+    "domain_name": "37-115-0-2.broadband.kyivstar.net",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "37.115.0.253": {
+    "domain_name": "37-115-0-253.broadband.kyivstar.net",
+    "mac": "00:30:54:00:34:56"
+  },
+  "37.115.0.36": {
+    "domain_name": "37-115-0-36.broadband.kyivstar.net",
+    "mac": "00:30:54:36:34:56"
+  },
+  "62.168.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "67.168.1.1": {
+    "domain_name": "c-67-168-1-1.hsd1.wa.comcast.net",
+    "mac": "00:30:54:00:41:56"
+  },
+  "81.168.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:bf:bd"
+  },
+  "84.168.1.2": {
+    "domain_name": "p54a80102.dip0.t-ipconnect.de",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "94.168.1.2": {
+    "domain_name": "94-168-1-2.static.v4.ziggozakelijk.nl",
+    "mac": "00:e0:ed:01:6e:bd"
+  }
+}
+Tor Traffic: []
+Malicious Traffic: []
+Destination DNS: {
+  "0.168.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "102.168.1.1": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:66"
+  },
+  "107.168.1.255": {
+    "domain_name": "NotResolvable",
+    "mac": "ff:ff:ff:ff:ff:ff"
+  },
+  "115.0.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "115.0.1.41": {
+    "domain_name": "NotResolvable",
+    "mac": "00:60:97:0f:ee:72"
+  },
+  "116.168.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "120.168.1.255": {
+    "domain_name": "NotResolvable",
+    "mac": "ff:ff:ff:ff:ff:ff"
+  },
+  "128.168.1.1": {
+    "domain_name": "1.01.a880.ip4.static.sl-reverse.com",
+    "mac": "00:30:54:00:34:56"
+  },
+  "128.168.1.2": {
+    "domain_name": "2.01.a880.ip4.static.sl-reverse.com",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "14.168.1.2": {
+    "domain_name": "static.vnpt.vn",
+    "mac": "00:e0:49:01:6e:bd"
+  },
+  "147.117.1.253": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "147.137.21.122": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "147.137.21.94": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "147.234.1.170": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "147.234.1.249": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:25:73:00"
+  },
+  "147.234.1.253": {
+    "domain_name": "dns.ecitele.com",
+    "mac": "00:30:54:00:73:56"
+  },
+  "170.170.170.170": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "172.168.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.112.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.114.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.121.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.136.1.1": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "192.136.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.169.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:73:01:6e:bd"
+  },
+  "192.170.1.1": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "192.170.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.170.170.170": {
+    "domain_name": "a.170.170.170.192.servpac.com",
+    "mac": "00:30:54:00:34:56"
+  },
+  "192.184.1.1": {
+    "domain_name": "1-1-184-192-reverse.instavps.net",
+    "mac": "00:30:54:00:34:56"
+  },
+  "192.184.189.41": {
+    "domain_name": "192-184-189-41.static.sonic.net",
+    "mac": "00:60:97:0f:ee:72"
+  },
+  "192.194.1.255": {
+    "domain_name": "NotResolvable",
+    "mac": "ff:ff:ff:ff:ff:ff"
+  },
+  "192.2.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.22.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.232.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.232.1.41": {
+    "domain_name": "NotResolvable",
+    "mac": "00:60:97:0f:ee:72"
+  },
+  "192.37.115.0": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "192.86.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "192.98.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "200.168.1.2": {
+    "domain_name": "200-168-1-2.dsl.telesp.net.br",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "200.168.1.255": {
+    "domain_name": "200-168-1-255.dsl.telesp.net.br",
+    "mac": "ff:ff:ff:ff:ff:ff"
+  },
+  "200.68.120.81": {
+    "domain_name": "customer-static-68-120-81.iplannetworks.net",
+    "mac": "00:30:54:00:34:56"
+  },
+  "200.68.120.99": {
+    "domain_name": "customer-static-68-120-99.iplannetworks.net",
+    "mac": "00:30:54:00:34:56"
+  },
+  "200.68.37.115": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "208.242.33.35": {
+    "domain_name": "user35.shell.net",
+    "mac": "00:30:54:00:34:56"
+  },
+  "212.234.33.35": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "212.242.33.201": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "212.242.33.35": {
+    "domain_name": "eth1.mgc1-khk.ip.cybercity.dk",
+    "mac": "00:30:54:00:34:56"
+  },
+  "212.242.33.36": {
+    "domain_name": "eth2.rtpfw1-khk.ip.cybercity.dk",
+    "mac": "00:30:54:00:34:56"
+  },
+  "214.242.33.36": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "217.168.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "240.168.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "241.168.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "25.168.1.1": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "253.168.1.1": {
+    "domain_name": "NotResolvable",
+    "mac": "00:30:54:00:34:56"
+  },
+  "37.115.0.2": {
+    "domain_name": "37-115-0-2.broadband.kyivstar.net",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "37.115.0.253": {
+    "domain_name": "37-115-0-253.broadband.kyivstar.net",
+    "mac": "00:30:54:00:34:56"
+  },
+  "37.115.0.36": {
+    "domain_name": "37-115-0-36.broadband.kyivstar.net",
+    "mac": "00:30:54:36:34:56"
+  },
+  "62.168.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "67.168.1.1": {
+    "domain_name": "c-67-168-1-1.hsd1.wa.comcast.net",
+    "mac": "00:30:54:00:41:56"
+  },
+  "81.168.1.2": {
+    "domain_name": "NotResolvable",
+    "mac": "00:e0:ed:01:bf:bd"
+  },
+  "84.168.1.2": {
+    "domain_name": "p54a80102.dip0.t-ipconnect.de",
+    "mac": "00:e0:ed:01:6e:bd"
+  },
+  "94.168.1.2": {
+    "domain_name": "94-168-1-2.static.v4.ziggozakelijk.nl",
+    "mac": "00:e0:ed:01:6e:bd"
+  }
+}
+Lan Hosts: {
+  "00:25:73:00:6e:bd": {
+    "device_vendor": "ST Electronics (Info-Security) Pte Ltd",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.25.73.00.6e.bd\nST Electronics (Info-Security) Pte Ltd",
+    "vendor_address": [
+      "100, Jurong East Street 21, ST Electronics Jurong East Bldg",
+      "609602",
+      "SG"
+    ]
+  },
+  "00:28:ed:01:6e:bd": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.28.ed.01.6e.bd\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "00:30:25:73:00:56": {
+    "device_vendor": "CHECKOUT COMPUTER SYSTEMS, LTD",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.25.73.00.56\nCHECKOUT COMPUTER SYSTEMS, LTD",
+    "vendor_address": [
+      "TOWNSEND FARM ROAD",
+      "UNITED  KINGDOM",
+      "GB"
+    ]
+  },
+  "00:30:4f:00:34:56": {
+    "device_vendor": "PLANET Technology Corporation",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.4f.00.34.56\nPLANET Technology Corporation",
+    "vendor_address": [
+      "11F, No. 96, Min-Chuan Road",
+      "Hsin-Tien Dist., New Taipei City",
+      "TW"
+    ]
+  },
+  "00:30:54:00:14:54": {
+    "device_vendor": "CASTLENET TECHNOLOGY, INC.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.54.00.14.54\nCASTLENET TECHNOLOGY, INC.",
+    "vendor_address": [
+      "NO. 130 WU-KUNG RD.,",
+      "TAIWAN  TAIWAN  R.O.C.",
+      "TW"
+    ]
+  },
+  "00:30:54:00:34:35": {
+    "device_vendor": "CASTLENET TECHNOLOGY, INC.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.54.00.34.35\nCASTLENET TECHNOLOGY, INC.",
+    "vendor_address": [
+      "NO. 130 WU-KUNG RD.,",
+      "TAIWAN  TAIWAN  R.O.C.",
+      "TW"
+    ]
+  },
+  "00:30:54:00:34:44": {
+    "device_vendor": "CASTLENET TECHNOLOGY, INC.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.54.00.34.44\nCASTLENET TECHNOLOGY, INC.",
+    "vendor_address": [
+      "NO. 130 WU-KUNG RD.,",
+      "TAIWAN  TAIWAN  R.O.C.",
+      "TW"
+    ]
+  },
+  "00:30:54:00:34:56": {
+    "device_vendor": "CASTLENET TECHNOLOGY, INC.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC.",
+    "vendor_address": [
+      "NO. 130 WU-KUNG RD.,",
+      "TAIWAN  TAIWAN  R.O.C.",
+      "TW"
+    ]
+  },
+  "00:30:54:00:34:76": {
+    "device_vendor": "CASTLENET TECHNOLOGY, INC.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.54.00.34.76\nCASTLENET TECHNOLOGY, INC.",
+    "vendor_address": [
+      "NO. 130 WU-KUNG RD.,",
+      "TAIWAN  TAIWAN  R.O.C.",
+      "TW"
+    ]
+  },
+  "00:30:54:00:34:d9": {
+    "device_vendor": "CASTLENET TECHNOLOGY, INC.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.54.00.34.d9\nCASTLENET TECHNOLOGY, INC.",
+    "vendor_address": [
+      "NO. 130 WU-KUNG RD.,",
+      "TAIWAN  TAIWAN  R.O.C.",
+      "TW"
+    ]
+  },
+  "00:30:54:00:34:dd": {
+    "device_vendor": "CASTLENET TECHNOLOGY, INC.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.54.00.34.dd\nCASTLENET TECHNOLOGY, INC.",
+    "vendor_address": [
+      "NO. 130 WU-KUNG RD.,",
+      "TAIWAN  TAIWAN  R.O.C.",
+      "TW"
+    ]
+  },
+  "00:30:54:00:36:56": {
+    "device_vendor": "CASTLENET TECHNOLOGY, INC.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.54.00.36.56\nCASTLENET TECHNOLOGY, INC.",
+    "vendor_address": [
+      "NO. 130 WU-KUNG RD.,",
+      "TAIWAN  TAIWAN  R.O.C.",
+      "TW"
+    ]
+  },
+  "00:30:54:00:4b:56": {
+    "device_vendor": "CASTLENET TECHNOLOGY, INC.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.54.00.4b.56\nCASTLENET TECHNOLOGY, INC.",
+    "vendor_address": [
+      "NO. 130 WU-KUNG RD.,",
+      "TAIWAN  TAIWAN  R.O.C.",
+      "TW"
+    ]
+  },
+  "00:30:54:00:63:56": {
+    "device_vendor": "CASTLENET TECHNOLOGY, INC.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.54.00.63.56\nCASTLENET TECHNOLOGY, INC.",
+    "vendor_address": [
+      "NO. 130 WU-KUNG RD.,",
+      "TAIWAN  TAIWAN  R.O.C.",
+      "TW"
+    ]
+  },
+  "00:30:54:00:6f:56": {
+    "device_vendor": "CASTLENET TECHNOLOGY, INC.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.54.00.6f.56\nCASTLENET TECHNOLOGY, INC.",
+    "vendor_address": [
+      "NO. 130 WU-KUNG RD.,",
+      "TAIWAN  TAIWAN  R.O.C.",
+      "TW"
+    ]
+  },
+  "00:30:54:02:34:56": {
+    "device_vendor": "CASTLENET TECHNOLOGY, INC.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.54.02.34.56\nCASTLENET TECHNOLOGY, INC.",
+    "vendor_address": [
+      "NO. 130 WU-KUNG RD.,",
+      "TAIWAN  TAIWAN  R.O.C.",
+      "TW"
+    ]
+  },
+  "00:30:54:25:73:00": {
+    "device_vendor": "CASTLENET TECHNOLOGY, INC.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.54.25.73.00\nCASTLENET TECHNOLOGY, INC.",
+    "vendor_address": [
+      "NO. 130 WU-KUNG RD.,",
+      "TAIWAN  TAIWAN  R.O.C.",
+      "TW"
+    ]
+  },
+  "00:30:54:32:34:25": {
+    "device_vendor": "CASTLENET TECHNOLOGY, INC.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.54.32.34.25\nCASTLENET TECHNOLOGY, INC.",
+    "vendor_address": [
+      "NO. 130 WU-KUNG RD.,",
+      "TAIWAN  TAIWAN  R.O.C.",
+      "TW"
+    ]
+  },
+  "00:30:54:3b:34:56": {
+    "device_vendor": "CASTLENET TECHNOLOGY, INC.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.54.3b.34.56\nCASTLENET TECHNOLOGY, INC.",
+    "vendor_address": [
+      "NO. 130 WU-KUNG RD.,",
+      "TAIWAN  TAIWAN  R.O.C.",
+      "TW"
+    ]
+  },
+  "00:30:54:3f:34:56": {
+    "device_vendor": "CASTLENET TECHNOLOGY, INC.",
+    "ip": "192.168.17.1",
+    "node": "192.168.17.1\n00.30.54.3f.34.56\nCASTLENET TECHNOLOGY, INC.",
+    "vendor_address": [
+      "NO. 130 WU-KUNG RD.,",
+      "TAIWAN  TAIWAN  R.O.C.",
+      "TW"
+    ]
+  },
+  "00:30:55:00:34:56": {
+    "device_vendor": "Renesas Technology America, Inc.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.55.00.34.56\nRenesas Technology America, Inc.",
+    "vendor_address": [
+      "450 Holger Way",
+      "San Jose  CA  95134",
+      "US"
+    ]
+  },
+  "00:30:5c:00:34:47": {
+    "device_vendor": "SMAR Laboratories Corp.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.5c.00.34.47\nSMAR Laboratories Corp.",
+    "vendor_address": [
+      "10960 Millridge North - Ste. #107",
+      "Houston  TX  77070",
+      "US"
+    ]
+  },
+  "00:30:6b:00:34:56": {
+    "device_vendor": "CMOS SYSTEMS, INC.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.6b.00.34.56\nCMOS SYSTEMS, INC.",
+    "vendor_address": [
+      "23440 HAWTHORNE BLVD-STE #290",
+      "TORRANCE  CA  90505",
+      "US"
+    ]
+  },
+  "00:30:74:00:34:56": {
+    "device_vendor": "EQUIINET LTD.",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.30.74.00.34.56\nEQUIINET LTD.",
+    "vendor_address": [
+      "EDISON HOUSE",
+      "SWINDON, SN3 5JA",
+      "GB"
+    ]
+  },
+  "00:36:ed:01:6e:bd": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.36.ed.01.6e.bd\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "00:48:ed:01:6e:bd": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.48.ed.01.6e.bd\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "00:4b:54:00:34:56": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.4b.54.00.34.56\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "00:53:54:00:34:56": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n00.53.54.00.34.56\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "00:58:ed:01:6e:bd": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.58.ed.01.6e.bd\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "00:60:97:0f:ee:72": {
+    "device_vendor": "3COM",
+    "ip": "192.168.1.41",
+    "node": "192.168.1.41\n00.60.97.0f.ee.72\n3COM",
+    "vendor_address": [
+      "5400 BAYFRONT PLAZA",
+      "SANTA CLARA  CA  95052",
+      "US"
+    ]
+  },
+  "00:62:97:0f:ee:72": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.41",
+    "node": "192.168.1.41\n00.62.97.0f.ee.72\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "00:9a:ed:05:6e:bd": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.9a.ed.05.6e.bd\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "00:a0:e8:01:6e:bd": {
+    "device_vendor": "REUTERS HOLDINGS PLC",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.a0.e8.01.6e.bd\nREUTERS HOLDINGS PLC",
+    "vendor_address": [
+      "85, FLEET STREET",
+      "ENGLAND",
+      "GB"
+    ]
+  },
+  "00:a0:ed:01:6e:bd": {
+    "device_vendor": "Brooks Automation, Inc.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.a0.ed.01.6e.bd\nBrooks Automation, Inc.",
+    "vendor_address": [
+      "15 Elizabeth Drive",
+      "Chelmsford  MA  01824",
+      "US"
+    ]
+  },
+  "00:aa:ed:01:6e:bd": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.aa.ed.01.6e.bd\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "00:e0:48:01:6e:bd": {
+    "device_vendor": "SDL COMMUNICATIONS, INC.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.48.01.6e.bd\nSDL COMMUNICATIONS, INC.",
+    "vendor_address": [
+      "P.O. BOX 1303",
+      "EASTON  MA  02334",
+      "US"
+    ]
+  },
+  "00:e0:64:01:6e:bd": {
+    "device_vendor": "SAMSUNG ELECTRONICS",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.64.01.6e.bd\nSAMSUNG ELECTRONICS",
+    "vendor_address": [
+      "99 W. TASMAN DRIVE",
+      "SAN JOSE  CA  95134",
+      "US"
+    ]
+  },
+  "00:e0:76:01:6e:bd": {
+    "device_vendor": "DEVELOPMENT CONCEPTS, INC.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.76.01.6e.bd\nDEVELOPMENT CONCEPTS, INC.",
+    "vendor_address": [
+      "1000 N. BROAD STREET",
+      "LANSDALE  PA  19446",
+      "US"
+    ]
+  },
+  "00:e0:d5:01:6e:bd": {
+    "device_vendor": "Emulex Corporation",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.d5.01.6e.bd\nEmulex Corporation",
+    "vendor_address": [
+      "3333 Susan Street",
+      "Costa Mesa  CA  92626",
+      "US"
+    ]
+  },
+  "00:e0:e5:01:6e:bd": {
+    "device_vendor": "CINCO NETWORKS, INC.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.e5.01.6e.bd\nCINCO NETWORKS, INC.",
+    "vendor_address": [
+      "6601 KOLL CENTER PARK WAY",
+      "PLEASANTON  CA  94566",
+      "US"
+    ]
+  },
+  "00:e0:ec:01:6e:bd": {
+    "device_vendor": "CELESTICA INC.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ec.01.6e.bd\nCELESTICA INC.",
+    "vendor_address": [
+      "1900-5140 Yonge Street PO Box 42",
+      "Toronto  Ontario  M2N 6L7",
+      "CA"
+    ]
+  },
+  "00:e0:ed:01:17:bd": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.17.bd\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:4e:bd": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.4e.bd\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:55:bd": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.55.bd\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:6e:05": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.6e.05\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:6e:08": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.6e.08\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:6e:14": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.6e.14\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:6e:3d": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.6e.3d\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:6e:4b": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.6e.4b\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:6e:4d": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.6e.4d\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:6e:53": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.6e.53\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:6e:62": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.6e.62\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:6e:72": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.6e.72\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:6e:75": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.6e.75\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:6e:a4": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.6e.a4\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:6e:b3": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.6e.b3\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:6e:bc": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.6e.bc\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:6e:bd": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:6e:be": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.6e.be\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:6e:bf": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.6e.bf\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:6e:db": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.6e.db\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:7a:bd": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.7a.bd\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:7e:bd": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.7e.bd\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:01:d3:bd": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.01.d3.bd\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:03:6e:bd": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.03.6e.bd\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:05:6e:bd": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.05.6e.bd\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:09:6e:bd": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.09.6e.bd\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:25:73:00": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.25.73.00\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:32:6e:bd": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.32.6e.bd\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:41:6e:bd": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.41.6e.bd\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:e0:6e:bd": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.e0.6e.bd\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ed:f5:6e:bd": {
+    "device_vendor": "SILICOM, LTD.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ed.f5.6e.bd\nSILICOM, LTD.",
+    "vendor_address": [
+      "8 HANAGER ST.",
+      "KFAR-SAVA 44000",
+      "IL"
+    ]
+  },
+  "00:e0:ef:01:6e:bd": {
+    "device_vendor": "DIONEX",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.ef.01.6e.bd\nDIONEX",
+    "vendor_address": [
+      "PO BOX 3603",
+      "SUNNYVALE  CA  94088-3603",
+      "US"
+    ]
+  },
+  "00:e0:f3:01:6e:bd": {
+    "device_vendor": "WebSprint Communications, Inc.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e0.f3.01.6e.bd\nWebSprint Communications, Inc.",
+    "vendor_address": [
+      "3026 SCOTT BLVD.",
+      "SANTA CLARA  CA  95054",
+      "US"
+    ]
+  },
+  "00:e2:ed:01:6e:bd": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.e2.ed.01.6e.bd\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "00:f0:ed:01:6e:bd": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.f0.ed.01.6e.bd\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "01:e0:ed:01:6e:bd": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n01.e0.ed.01.6e.bd\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "10:e0:ed:01:6e:bd": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n10.e0.ed.01.6e.bd\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "1c:e0:ed:01:6e:bd": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n1c.e0.ed.01.6e.bd\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "24:30:54:00:34:56": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n24.30.54.00.34.56\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "34:e0:ed:01:6e:bd": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n34.e0.ed.01.6e.bd\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "40:30:54:00:34:56": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n40.30.54.00.34.56\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "40:e0:ed:01:6e:bd": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n40.e0.ed.01.6e.bd\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "62:e0:ed:01:6e:bd": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n62.e0.ed.01.6e.bd\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "6c:30:54:00:34:56": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.1",
+    "node": "192.168.1.1\n6c.30.54.00.34.56\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "73:00:97:0f:ee:72": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.41",
+    "node": "192.168.1.41\n73.00.97.0f.ee.72\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "73:00:ed:01:6e:bd": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n73.00.ed.01.6e.bd\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "d1:ff:ff:ff:ff:ff": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.255",
+    "node": "192.168.1.255\nd1.ff.ff.ff.ff.ff\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "df:ff:ff:ff:ff:ff": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.251",
+    "node": "192.168.1.251\ndf.ff.ff.ff.ff.ff\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "f6:30:54:00:34:56": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.115.1",
+    "node": "192.168.115.1\nf6.30.54.00.34.56\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "ff:34:ff:ff:ff:ff": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.255",
+    "node": "192.168.1.255\nff.34.ff.ff.ff.ff\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "ff:ff:61:ff:ff:ff": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.255",
+    "node": "192.168.1.255\nff.ff.61.ff.ff.ff\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "ff:ff:ff:42:ff:ff": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.255",
+    "node": "192.168.1.255\nff.ff.ff.42.ff.ff\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "ff:ff:ff:7f:ff:ff": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.255",
+    "node": "192.168.1.255\nff.ff.ff.7f.ff.ff\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "ff:ff:ff:f7:ff:ff": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.255",
+    "node": "192.168.1.255\nff.ff.ff.f7.ff.ff\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "ff:ff:ff:ff:bf:ff": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.255",
+    "node": "192.168.1.255\nff.ff.ff.ff.bf.ff\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "ff:ff:ff:ff:ff:25": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.255",
+    "node": "192.168.1.255\nff.ff.ff.ff.ff.25\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "ff:ff:ff:ff:ff:f7": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.255",
+    "node": "192.168.1.255\nff.ff.ff.ff.ff.f7\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "ff:ff:ff:ff:ff:ff": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.1.255",
+    "node": "192.168.1.255\nff.ff.ff.ff.ff.ff\nUnknown",
+    "vendor_address": "Unknown"
+  }
+}
+Tor Nodes: []

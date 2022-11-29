@@ -1,0 +1,178 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 750px;
+                 background-color: #222222;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "label": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "shape": "dot", "title": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD."}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.255\nff.ff.ff.ff.ff.ff\nUnknown", "label": "192.168.1.255\nff.ff.ff.ff.ff.ff\nUnknown", "shape": "dot", "title": "192.168.1.255\nff.ff.ff.ff.ff.ff\nUnknown"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC.", "label": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC.", "shape": "dot", "title": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.2\n00.e0.ed.01.6e.75\nSILICOM, LTD.", "label": "192.168.1.2\n00.e0.ed.01.6e.75\nSILICOM, LTD.", "shape": "dot", "title": "192.168.1.2\n00.e0.ed.01.6e.75\nSILICOM, LTD."}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.1\n00.30.25.73.00.56\nCHECKOUT COMPUTER SYSTEMS, LTD", "label": "192.168.1.1\n00.30.25.73.00.56\nCHECKOUT COMPUTER SYSTEMS, LTD", "shape": "dot", "title": "192.168.1.1\n00.30.25.73.00.56\nCHECKOUT COMPUTER SYSTEMS, LTD"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.2\n00.25.73.00.6e.bd\nST Electronics (Info-Security) Pte Ltd", "label": "192.168.1.2\n00.25.73.00.6e.bd\nST Electronics (Info-Security) Pte Ltd", "shape": "dot", "title": "192.168.1.2\n00.25.73.00.6e.bd\nST Electronics (Info-Security) Pte Ltd"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.251\ndf.ff.ff.ff.ff.ff\nUnknown", "label": "192.168.1.251\ndf.ff.ff.ff.ff.ff\nUnknown", "shape": "dot", "title": "192.168.1.251\ndf.ff.ff.ff.ff.ff\nUnknown"}, {"color": "yellow", "font": {"color": "white"}, "id": "00.30.54.00.73.56\nPossibleGateway", "label": "00.30.54.00.73.56\nPossibleGateway", "shape": "dot", "title": "00.30.54.00.73.56\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "147.234.1.253\n00.e0.73.01.6e.bd", "label": "147.234.1.253\n00.e0.73.01.6e.bd", "shape": "dot", "title": "147.234.1.253\n00.e0.73.01.6e.bd"}, {"color": "yellow", "font": {"color": "white"}, "id": "00.e0.73.01.6e.bd\nPossibleGateway", "label": "00.e0.73.01.6e.bd\nPossibleGateway", "shape": "dot", "title": "00.e0.73.01.6e.bd\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.1\n00.30.54.25.73.00\nCASTLENET TECHNOLOGY, INC.", "label": "192.168.1.1\n00.30.54.25.73.00\nCASTLENET TECHNOLOGY, INC.", "shape": "dot", "title": "192.168.1.1\n00.30.54.25.73.00\nCASTLENET TECHNOLOGY, INC."}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.2\n00.e0.ed.01.6e.b3\nSILICOM, LTD.", "label": "192.168.1.2\n00.e0.ed.01.6e.b3\nSILICOM, LTD.", "shape": "dot", "title": "192.168.1.2\n00.e0.ed.01.6e.b3\nSILICOM, LTD."}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.2\n00.e0.76.01.6e.bd\nDEVELOPMENT CONCEPTS, INC.", "label": "192.168.1.2\n00.e0.76.01.6e.bd\nDEVELOPMENT CONCEPTS, INC.", "shape": "dot", "title": "192.168.1.2\n00.e0.76.01.6e.bd\nDEVELOPMENT CONCEPTS, INC."}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.17.1\n00.30.54.3f.34.56\nCASTLENET TECHNOLOGY, INC.", "label": "192.168.17.1\n00.30.54.3f.34.56\nCASTLENET TECHNOLOGY, INC.", "shape": "dot", "title": "192.168.17.1\n00.30.54.3f.34.56\nCASTLENET TECHNOLOGY, INC."}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.115.1\nf6.30.54.00.34.56\nUnknown", "label": "192.168.115.1\nf6.30.54.00.34.56\nUnknown", "shape": "dot", "title": "192.168.115.1\nf6.30.54.00.34.56\nUnknown"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.2\n00.e0.f3.01.6e.bd\nWebSprint Communications, Inc.", "label": "192.168.1.2\n00.e0.f3.01.6e.bd\nWebSprint Communications, Inc.", "shape": "dot", "title": "192.168.1.2\n00.e0.f3.01.6e.bd\nWebSprint Communications, Inc."}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.2\n62.e0.ed.01.6e.bd\nUnknown", "label": "192.168.1.2\n62.e0.ed.01.6e.bd\nUnknown", "shape": "dot", "title": "192.168.1.2\n62.e0.ed.01.6e.bd\nUnknown"}, {"color": "yellow", "font": {"color": "white"}, "id": "00.30.54.00.41.56\nPossibleGateway", "label": "00.30.54.00.41.56\nPossibleGateway", "shape": "dot", "title": "00.30.54.00.41.56\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.2\n1c.e0.ed.01.6e.bd\nUnknown", "label": "192.168.1.2\n1c.e0.ed.01.6e.bd\nUnknown", "shape": "dot", "title": "192.168.1.2\n1c.e0.ed.01.6e.bd\nUnknown"}, {"color": "yellow", "font": {"color": "white"}, "id": "00.30.54.00.34.66\nPossibleGateway", "label": "00.30.54.00.34.66\nPossibleGateway", "shape": "dot", "title": "00.30.54.00.34.66\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.169.1.2\n00.30.54.00.30.56", "label": "192.169.1.2\n00.30.54.00.30.56", "shape": "dot", "title": "192.169.1.2\n00.30.54.00.30.56"}, {"color": "yellow", "font": {"color": "white"}, "id": "00.e0.49.01.6e.bd\nPossibleGateway", "label": "00.e0.49.01.6e.bd\nPossibleGateway", "shape": "dot", "title": "00.e0.49.01.6e.bd\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.2\n00.e0.ed.01.6e.05\nSILICOM, LTD.", "label": "192.168.1.2\n00.e0.ed.01.6e.05\nSILICOM, LTD.", "shape": "dot", "title": "192.168.1.2\n00.e0.ed.01.6e.05\nSILICOM, LTD."}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.1\n00.30.54.00.4b.56\nCASTLENET TECHNOLOGY, INC.", "label": "192.168.1.1\n00.30.54.00.4b.56\nCASTLENET TECHNOLOGY, INC.", "shape": "dot", "title": "192.168.1.1\n00.30.54.00.4b.56\nCASTLENET TECHNOLOGY, INC."}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.255\nff.ff.ff.ff.ff.f7\nUnknown", "label": "192.168.1.255\nff.ff.ff.ff.ff.f7\nUnknown", "shape": "dot", "title": "192.168.1.255\nff.ff.ff.ff.ff.f7\nUnknown"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.41\n00.60.97.0f.ee.72\n3COM", "label": "192.168.1.41\n00.60.97.0f.ee.72\n3COM", "shape": "dot", "title": "192.168.1.41\n00.60.97.0f.ee.72\n3COM"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.41\n00.62.97.0f.ee.72\nUnknown", "label": "192.168.1.41\n00.62.97.0f.ee.72\nUnknown", "shape": "dot", "title": "192.168.1.41\n00.62.97.0f.ee.72\nUnknown"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.2\n00.e0.ed.03.6e.bd\nSILICOM, LTD.", "label": "192.168.1.2\n00.e0.ed.03.6e.bd\nSILICOM, LTD.", "shape": "dot", "title": "192.168.1.2\n00.e0.ed.03.6e.bd\nSILICOM, LTD."}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.2\n00.e0.ed.01.6e.bf\nSILICOM, LTD.", "label": "192.168.1.2\n00.e0.ed.01.6e.bf\nSILICOM, LTD.", "shape": "dot", "title": "192.168.1.2\n00.e0.ed.01.6e.bf\nSILICOM, LTD."}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.2\n00.e0.ed.e0.6e.bd\nSILICOM, LTD.", "label": "192.168.1.2\n00.e0.ed.e0.6e.bd\nSILICOM, LTD.", "shape": "dot", "title": "192.168.1.2\n00.e0.ed.e0.6e.bd\nSILICOM, LTD."}, {"color": "yellow", "font": {"color": "white"}, "id": "00.30.54.36.34.56\nPossibleGateway", "label": "00.30.54.36.34.56\nPossibleGateway", "shape": "dot", "title": "00.30.54.36.34.56\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.1\n00.30.5c.00.34.47\nSMAR Laboratories Corp.", "label": "192.168.1.1\n00.30.5c.00.34.47\nSMAR Laboratories Corp.", "shape": "dot", "title": "192.168.1.1\n00.30.5c.00.34.47\nSMAR Laboratories Corp."}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 0.1, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 0.2, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 0.3, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.25.73.00.56\nCHECKOUT COMPUTER SYSTEMS, LTD"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 0.4, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 0.5, "type": "curvedCW"}, "to": "192.168.17.1\n00.30.54.3f.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 0.6, "type": "curvedCW"}, "to": "192.168.115.1\nf6.30.54.00.34.56\nUnknown"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.f3.01.6e.bd\nWebSprint Communications, Inc.", "smooth": {"roundness": 0.7, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 0.8, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 0.9, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 1.0, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 1.1, "type": "curvedCW"}, "to": "00.30.54.00.41.56\nPossibleGateway"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 1.2, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 1.3, "type": "curvedCW"}, "to": "00.30.54.00.34.66\nPossibleGateway"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 1.4, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 1.5, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 1.6, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 1.7, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 1.8, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.4b.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 1.9, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 2.0, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 2.1, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 2.2, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 2.3, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 2.4, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 2.5, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 2.6, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 2.7, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 2.8, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.e0.ed.01.6e.bd\nSILICOM, LTD.", "smooth": {"roundness": 2.9, "type": "curvedCW"}, "to": "192.168.1.1\n00.30.54.00.34.56\nCASTLENET TECHNOLOGY, INC."}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "barnesHut": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.3,
+            "damping": 0.09,
+            "gravitationalConstant": -80000,
+            "springConstant": 0.001,
+            "springLength": 250
+        },
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

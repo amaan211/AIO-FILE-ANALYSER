@@ -1,0 +1,763 @@
+digraph "network_diagram - Malicious" {
+	graph [bgcolor=grey dpi=300 fontcolor=black fontsize=16 label=PcapGraph overlap=scale rankdir=LR size="10, 10"]
+	node [color=" black" fillcolor=yellow fixedsize=true fontcolor=black fontname=Helvetica height=3 shape=circle style=filled width=3]
+	node [shape=doublecircle]
+	node [shape=circle]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.255
+ff.ff.ff.ff.ff.ff
+Unknown"
+	"192.168.1.255
+ff.ff.ff.ff.ff.ff
+Unknown" -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 217.168.1.2" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 192.37.115.0" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.75
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.75
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 192.168.1.1" color=red]
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 192.168.1.2" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 192.168.1.1" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 212.242.33.35" color=red]
+	"192.168.1.2
+00.25.73.00.6e.bd
+ST Electronics (Info-Security) Pte Ltd"
+	"192.168.1.2
+00.25.73.00.6e.bd
+ST Electronics (Info-Security) Pte Ltd" -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 212.242.33.35" color=red]
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 208.242.33.35" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 147.137.21.94" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 147.137.21.94" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 147.137.21.122" color=red]
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 192.114.1.2" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"147.234.1.253
+00.e0.73.01.6e.bd"
+	"147.234.1.253
+00.e0.73.01.6e.bd" -> "00.e0.73.01.6e.bd
+PossibleGateway" [label="Malicious: 192.169.1.2" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "00.30.54.00.73.56
+PossibleGateway" [label="Malicious: 147.234.1.253" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.25.73.00
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 147.234.1.249" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "00.30.54.00.73.56
+PossibleGateway" [label="Malicious: 147.234.1.253" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.2
+00.e0.ed.01.6e.b3
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.b3
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 147.117.1.253" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "00.30.54.00.73.56
+PossibleGateway" [label="Malicious: 147.234.1.253" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 37.115.0.253" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "00.30.54.00.73.56
+PossibleGateway" [label="Malicious: 147.234.1.253" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "00.30.54.00.73.56
+PossibleGateway" [label="Malicious: 147.234.1.253" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 192.136.1.1" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 192.168.1.1" color=red]
+	"192.168.1.2
+00.e0.76.01.6e.bd
+DEVELOPMENT CONCEPTS, INC."
+	"192.168.1.2
+00.e0.76.01.6e.bd
+DEVELOPMENT CONCEPTS, INC." -> "192.168.1.255
+ff.ff.ff.ff.ff.ff
+Unknown" [label="Malicious: 192.168.1.255" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 192.168.1.2" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 192.170.170.170" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 172.168.1.2" color=red]
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 200.168.1.2" color=red]
+	"192.168.1.2
+00.e0.f3.01.6e.bd
+WebSprint Communications, Inc."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.255
+ff.ff.ff.ff.ff.ff
+Unknown" [label="Malicious: 192.168.1.255" color=red]
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "192.168.1.2
+62.e0.ed.01.6e.bd
+Unknown" [label="Malicious: 192.168.1.2" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 192.168.1.1" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 200.68.120.81" color=red]
+	"192.168.1.2
+1c.e0.ed.01.6e.bd
+Unknown"
+	"192.168.1.2
+1c.e0.ed.01.6e.bd
+Unknown" -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 200.68.120.81" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 200.68.37.115" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 200.68.120.81" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "00.30.54.00.34.66
+PossibleGateway" [label="Malicious: 102.168.1.1" color=red]
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.169.1.2
+00.30.54.00.30.56"
+	"192.169.1.2
+00.30.54.00.30.56" -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 200.68.120.81" color=red]
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "00.e0.49.01.6e.bd
+PossibleGateway" [label="Malicious: 14.168.1.2" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 192.22.1.2" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 94.168.1.2" color=red]
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "192.168.1.2
+00.e0.ed.01.6e.05
+SILICOM, LTD." [label="Malicious: 192.168.1.2" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.255
+ff.ff.ff.ff.ff.ff
+Unknown" [label="Malicious: 120.168.1.255" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 212.242.33.35" color=red]
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 0.168.1.2" color=red]
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 192.168.5.2" color=red]
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 200.168.1.2" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.255
+ff.ff.ff.ff.ff.ff
+Unknown" [label="Malicious: 192.168.1.255" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 212.242.33.35" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 192.37.115.0" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.255
+ff.ff.ff.ff.ff.ff
+Unknown" [label="Malicious: 192.194.1.255" color=red]
+	"192.168.1.255
+ff.ff.ff.ff.ff.ff
+Unknown"
+	"192.168.1.255
+ff.ff.ff.ff.ff.ff
+Unknown" -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 170.170.170.170" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.255
+ff.ff.ff.ff.ff.f7
+Unknown"
+	"192.168.1.255
+ff.ff.ff.ff.ff.f7
+Unknown" -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 192.136.1.2" color=red]
+	"192.168.1.41
+00.60.97.0f.ee.72
+3COM"
+	"192.168.1.255
+ff.ff.ff.ff.ff.ff
+Unknown"
+	"192.168.1.41
+00.62.97.0f.ee.72
+Unknown"
+	"192.168.1.41
+00.60.97.0f.ee.72
+3COM"
+	"192.168.1.41
+00.60.97.0f.ee.72
+3COM" -> "192.168.1.255
+ff.ff.ff.ff.ff.ff
+Unknown" [label="Malicious: 107.168.1.255" color=red]
+	"192.168.1.255
+ff.ff.ff.ff.ff.ff
+Unknown"
+	"192.168.1.255
+ff.ff.ff.ff.ff.ff
+Unknown" -> "192.168.1.41
+00.60.97.0f.ee.72
+3COM" [label="Malicious: 115.0.1.41" color=red]
+	"192.168.1.255
+ff.ff.ff.ff.ff.ff
+Unknown"
+	"192.168.1.255
+ff.ff.ff.ff.ff.ff
+Unknown" -> "192.168.1.41
+00.60.97.0f.ee.72
+3COM" [label="Malicious: 192.232.1.41" color=red]
+	"192.168.1.41
+00.60.97.0f.ee.72
+3COM"
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.255
+ff.ff.ff.ff.ff.ff
+Unknown" [label="Malicious: 192.168.170.170" color=red]
+	"192.168.1.2
+00.e0.ed.03.6e.bd
+SILICOM, LTD."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.41
+00.60.97.0f.ee.72
+3COM"
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 115.0.1.2" color=red]
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 192.168.119.2" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 192.168.1.1" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bf
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bf
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 212.242.33.35" color=red]
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 192.170.1.2" color=red]
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 128.168.1.2" color=red]
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 192.168.1.2" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.e0.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.e0.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 212.242.33.201" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 212.242.33.36" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "00.30.54.36.34.56
+PossibleGateway" [label="Malicious: 37.115.0.36" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 212.242.33.36" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 214.242.33.36" color=red]
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 212.234.33.35" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." [label="Malicious: 192.170.1.1" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." -> "192.168.1.1
+00.30.5c.00.34.47
+SMAR Laboratories Corp." [label="Malicious: 192.168.1.1" color=red]
+	"192.168.1.255
+ff.ff.ff.ff.ff.ff
+Unknown"
+	"192.168.1.255
+ff.ff.ff.ff.ff.ff
+Unknown" -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 62.168.1.2" color=red]
+	"192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC."
+	"192.168.1.1
+00.30.54.00.34.56
+CASTLENET TECHNOLOGY, INC." -> "192.168.1.2
+00.e0.ed.01.6e.bd
+SILICOM, LTD." [label="Malicious: 116.168.1.2" color=red]
+}
