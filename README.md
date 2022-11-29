@@ -23,12 +23,7 @@ Tool Highlights:
   * Possible Malicious traffic
   * Data Obtained from Packet in Report – Device/Traffic/Payloads
   * Device Details
-  
-### Tool Image:
-![Alt text](https://srinivas11789.github.io/PcapXray/Samples/screen2_6_1.png?raw=true)
-
-![Alt text](https://srinivas11789.github.io/PcapXray/Samples/screen2_6_2.png?raw=true)
-
+ 
 ### Components:
 * Network Diagram 
 * Device/Traffic Details and Analysis
