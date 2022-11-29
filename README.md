@@ -1,7 +1,5 @@
 # AIO-FILE-ANALYSER 
     A Network Forensics Tool - To visualize a Packet Capture offline as a Network Diagram including device identification, highlight important communication and file extraction
-## PcapXray Design Specification
-Wiki has more help too.
 
 ### Goal:
   Given a Pcap File, plot a network diagram displaying hosts in the network, network traffic, highlight important traffic and Tor traffic as well as potential malicious traffic including data involved in the communication.
